@@ -1,0 +1,30 @@
+﻿Сборка начата 03.11.2016 15:13:06.
+     1>Проект "C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Lab03_OOP\Lab03_OOP.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Lab03_OOP.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Lab03_OOP.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Child_present.cpp
+         Child_present.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Debug\Lab03_OOP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Debug\Lab03_OOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Debug\Lab03_OOP.lib" /MACHINE:X86 Debug\Candy.obj
+         Debug\Child_present.obj
+         Debug\Chocolate_candy.obj
+         Debug\Cookie.obj
+         Debug\Ice_Cream.obj
+         Debug\Karamel.obj
+         Debug\Kond_izd.obj
+         Debug\Lab03_OOP.obj
+         Debug\Plombir.obj
+         Debug\Printer.obj
+         Debug\stdafx.obj
+         Lab03_OOP.vcxproj -> C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Debug\Lab03_OOP.exe
+         Lab03_OOP.vcxproj -> C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Debug\Lab03_OOP.pdb (Full PDB)
+       FinalizeBuildStatus:
+         Файл "Debug\Lab03_OOP.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab03_OOP.tlog\Lab03_OOP.lastbuildstate".
+     1>Сборка проекта "C:\Users\Angela\Documents\Visual Studio 2015\Projects\Lab03_OOP\Lab03_OOP\Lab03_OOP.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.84
