@@ -14,6 +14,9 @@ int main()
 													  });
 
 	(*cont2).Print();
+	Candy candy;
+	cin >> candy;
+	cout << candy << endl;
 	system("pause");
 	return EXIT_SUCCESS;
 }

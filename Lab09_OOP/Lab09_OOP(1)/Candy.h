@@ -30,8 +30,11 @@ public:
 	bool operator==(const Candy&);
 	bool operator!=(const Candy&);
 	Candy operator=(const Candy&);
-	ostream& operator<<(ostream& out);
+	friend ostream& operator<<(ostream& out,const Candy candy);
+	friend istream& operator >> (istream& in, Candy& candy);
 protected:
 	ui Percentege_of_sugar;
 	ui Weight;
 };
+ostream& operator<<(ostream& out, const Candy candy);
+istream& operator >> (istream& in, Candy& candy);

@@ -46,8 +46,18 @@ Candy Candy::operator=(const Candy & candy)
 	Candy* rc = new Candy(candy);
 	return *rc;
 }
-ostream& Candy::operator<<(ostream& out)
+ostream& operator<<(ostream& out, const Candy candy)
 {
-	out << "Процентное содержание сахара: " << this->getPerc() << "%\nМасса конфеты: " << this->getWeight() << "г\n";
+	out << "Процентное содержание сахара: " << candy.getPerc() << "%\nМасса конфеты: " << candy.getWeight() << "г\n";
 	return out;
+}
+istream& operator >> (istream& in, Candy& candy)
+{
+	printf("Введите содержание сахара в конфете (в процентах): ");
+	in >> candy.Percentege_of_sugar;
+	if (candy.Percentege_of_sugar > 100) candy.Percentege_of_sugar = 100;
+	printf("Введите массу конфеты: ");
+	in >> candy.Weight;
+	if (candy.Weight > 10000) candy.Weight = 10000;
+	return in;
 }
