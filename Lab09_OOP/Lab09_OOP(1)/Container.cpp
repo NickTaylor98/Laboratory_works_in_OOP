@@ -24,9 +24,8 @@ void Container::Print()
 		(*parr).front().toConsole();
 		(*parr).pop();
 	}
-	cout << endl;
+	printf("\n");
 }
-
 Candy* Container::GetArray()
 {
 	auto rc = new Candy[arr.size()];

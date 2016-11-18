@@ -9,7 +9,7 @@ int main()
 {
 	setlocale(LC_ALL, "");
 	auto cont = new Container{ 12.0,12.0,32.0 };
-	Container_Second* cont1 = new Container_Second{ {3.1345 ,1 }, {4.456,2}, {5.1213,4} };
+	Container_Second* cont1 = new Container_Second{ {1, 3.1345}, {2, 4.456}, {3, 5.1213} };
 	(*cont).Print();
 //	(*cont).Insert(34.0,34.0,34.0,34.0,34.0,DBL_MAX);
 //	double* arr = new double[SIZE_OF_ARRAY]; 

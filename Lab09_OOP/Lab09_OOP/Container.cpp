@@ -21,10 +21,10 @@ void Container::Print()
 	auto parr = new queue<double>(arr);
 	for (ui i(arr.size()); i > 0; i--)
 	{
-		cout << (*parr).front() << ends; 
+		printf("%g ", (*parr).front());
 		(*parr).pop();
 	}
-	cout << endl;
+	printf("\n");
 	delete parr;
 }
 

@@ -1,14 +1,15 @@
 #pragma once
 #include "stdafx.h"
+#include "Candy.h"
 class Container_Second
 {
-	unordered_map <double, ui> arr;
+	unordered_map <ui, Candy> arr;
 public:
 	Container_Second();
-	Container_Second(initializer_list<pair<double, ui>> lst);
-	void Insert(double, ...);
+	Container_Second(initializer_list<pair<ui, Candy>> lst);
+	void Insert(Candy, ...);
 	void Print();
-	double* GetArray();
+	Candy* GetArray();
 	ui getSize() const;
 	//	void Print_with_Iterators(); невозможно, т.к. не существует итераторов на очередь
 };

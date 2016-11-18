@@ -1,15 +1,12 @@
 #pragma once
 #include "stdafx.h"
-#include <string>
-using ui = unsigned int;
 #define ARRAY_OF_TASTES {"Клубника", "Банан", "Вишня", "Манго", "Молоко", "Неизвестный"}
 class Candy
 {
-private:
 	class Filling
 	{
 		ui id;
-        const string Array_of_tastes[6] = { "Клубника", "Банан", "Вишня", "Манго", "Молоко", "Неизвестный" };
+		string Array_of_tastes[6] = ARRAY_OF_TASTES;
 	public:
 		Filling();
 		Filling(Filling& fill);
@@ -22,17 +19,18 @@ public:
 	Candy();
 	Candy(ui Percentage_of_sugar, ui id, ui weight);
 	Candy(const Candy&);
+	~Candy();
 	ui getPerc() const;
 	void setPerc(ui sugar);
-	virtual void Print();
+	void Print();
 	bool TasteGood();
 	void setWeight(ui);
 	ui getWeight() const;
-	virtual ~Candy();
-	virtual void toConsole();
+	void toConsole();
 	bool operator==(const Candy&);
 	bool operator!=(const Candy&);
 	Candy operator=(const Candy&);
+	ostream& operator<<(ostream& out);
 protected:
 	ui Percentege_of_sugar;
 	ui Weight;

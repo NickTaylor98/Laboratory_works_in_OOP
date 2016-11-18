@@ -2,10 +2,10 @@
 #include "stdafx.h"
 class Container_Second
 {
-	unordered_map <double, ui> arr;
+	unordered_map <ui, double> arr;
 public:
 	Container_Second();
-	Container_Second(initializer_list<pair<double, ui>> lst);
+	Container_Second(initializer_list<pair<ui, double>> lst);
 	void Insert(double, ...);
 	void Print();
 	double* GetArray();

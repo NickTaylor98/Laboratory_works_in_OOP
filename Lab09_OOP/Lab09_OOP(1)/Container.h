@@ -1,5 +1,6 @@
 #pragma once
 #include "stdafx.h"
+#include "Candy.h"
 class Container
 {
 	queue<Candy> arr;
