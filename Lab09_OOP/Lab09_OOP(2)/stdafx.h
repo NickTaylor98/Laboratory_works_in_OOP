@@ -11,6 +11,9 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <memory>
+#include <string>
+#include <functional>
+#include <vector>
 using namespace std;
 
 
