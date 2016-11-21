@@ -52,7 +52,7 @@ int main()
 	binder1st< less<double> > less_than(less<double>(), 3.0);
 	printf("Количество элементов больших 3: %u\n", count_if(vec3.begin(), vec3.end(), less_than));
 	binder2nd <less <double>> more_than(less<double>(), 3.0);
-	printf("Количество элементов маньших 3: %u\n", count_if(vec3.begin(), vec3.end(), more_than));
+	printf("Количество элементов меньших 3: %u\n", count_if(vec3.begin(), vec3.end(), more_than));
 
 	system("pause");
     return 0;
