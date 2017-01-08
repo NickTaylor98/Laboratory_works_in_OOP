@@ -1,0 +1,32 @@
+var int function ipow(int a, int b);
+var int function strlength(str a);
+var str function lowercase(str string);
+var str function uppercase(str string);
+int function probe(int ab)
+{
+var int rc = ((ab+5)/6-4)*2;
+out (rc+ab); @ - 1
+return rc-5; @ -11
+}
+str function prode(str a, str b)
+{
+var int length;
+a =lowercase(a);
+length = strlength(a);
+out (a); @ 11
+out (" ");
+out (length);
+out (" ");
+return uppercase(b);
+}
+main()
+{
+var str string = "Hello World!";
+var str stroke = "lna-2016";
+string = prode(string, stroke); @ string = "LNA-2016"
+var int param = probe(5) + ipow(2,3);
+out (string);
+out (" ");
+out(param);
+return 0;
+}

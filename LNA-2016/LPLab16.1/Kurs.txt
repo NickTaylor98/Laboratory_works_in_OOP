@@ -1,0 +1,25 @@
+str function change(str a)
+{
+var str b;
+a = "3432432";
+b = b+a;
+return b;
+}
+int function fi(int a, int b)
+{
+b= a;
+a = a+3;
+return a;
+}
+main()
+{
+var str a;
+var int b;
+a =  change(a);
+b = fi(b) +4;
+out (b);
+b = strlen(a);
+out (b);
+out (a);
+return 0;
+}
